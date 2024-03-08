@@ -1,0 +1,21 @@
+{
+  "name": "woort",
+  "version": "1.0.0",
+  "description": "Wrapped OORT for OORT",
+  "main": "index.js",
+  "repository": "",
+  "author": "oort foundation",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "@types/sinon-chai": "^3.2.3",
+    "dotenv": "^16.4.5",
+    "ethereum-waffle": "^4.0.10",
+    "hardhat": "^2.21.0"
+  },
+  "devDependencies": {
+    "ethers": "^5.7.2"
+  }
+}
