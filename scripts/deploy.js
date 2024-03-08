@@ -1,7 +1,7 @@
 const { ethers, upgrades } = require("hardhat");
 //const BigNumber = require('bignumber.js');
 
-async function FactoryDeploy() {
+async function WoortDeploy() {
     const WOORT = await ethers.getContractFactory("WOORT");
     const wrapped = await WOORT.deploy();
 
@@ -9,7 +9,7 @@ async function FactoryDeploy() {
     console.log('Transaction hash:', wrapped.deployTransaction.hash);
 }
 
-FactoryDeploy()
+WoortDeploy()
     .then
     (function () {
         process.exit(0);
